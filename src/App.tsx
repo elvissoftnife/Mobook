@@ -1,11 +1,7 @@
 import React from 'react'
-import "./style.scss";
+import HomePage from './pages/home/home.page'
 
 const App: React.FC = () => {
-    return (
-        <div>
-            Hola mundo
-        </div>
-    )
+    return <HomePage />
 }
 export default App
