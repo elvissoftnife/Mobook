@@ -8,11 +8,17 @@ import { ButtonMolecule } from './button.molecule'
 import style from './infoCardCarousel.molecule.scss'
 import { StarsMolecule } from './stars.molecule'
 
-export const InfoCardCarouselMolecule = ()=> {
+type InfoCardProps = {
+    image:string
+    cardStyle: string,
+    buttonStyle:string
+}
+
+export const InfoCardCarouselMolecule = ({cardStyle,buttonStyle, image}:InfoCardProps)=> {
     return (
-        <div className={"row "+style.card}>
+        <div className={"row "+style.card+" "+cardStyle}>
             <div className="col-md-6">
-            <ImageAtom  style={ style.image} url="https://edit.org/images/cat/portadas-libros-big-2019101610.jpg" />
+            <ImageAtom  style={ style.image} url={image} />
 
             </div>
             <div className="col-md-6">
@@ -21,7 +27,7 @@ export const InfoCardCarouselMolecule = ()=> {
                 <NameAtom data="por Elvis Zapatero" style={ style.book__autor}/>
                 <StarsMolecule/>
                 <DescriptionAtom style={style.book__description} />
-                <ButtonMolecule text="Ver el boton" style={style.book__button} />
+                <ButtonMolecule text="Ver el boton" style={style.book__button+" "+buttonStyle} />
             </div>
         </div>
     )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NameAtom } from '../atoms/name.atom'
 
 type ButtonProps={
     text: string,
@@ -8,7 +9,7 @@ type ButtonProps={
 export const ButtonMolecule=({text , style}:ButtonProps)=> {
     return (
         <div className={style}>
-            {text}
+            <NameAtom data={text} />
         </div>
     )
 }

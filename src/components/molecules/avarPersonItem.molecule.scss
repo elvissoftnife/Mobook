@@ -1,0 +1,10 @@
+.avatarPerson {
+  display: flex;
+  margin: 15px 0px;
+
+  &__name {
+    margin-left: 10px;
+    font-weight: 600;
+    color: gray;
+  }
+}

@@ -1,7 +1,8 @@
 .search {
-  width: 80%;
-  background-color: blue;
+  width: 100%;
   margin: 20px auto;
+  display: flex;
+  box-shadow: 0px 0px 5px 0.5px rgb(194, 194, 194);
 
   &__input {
     border: none;
@@ -11,7 +12,17 @@
     padding: 0px 20px;
     color: grey;
     outline-style: none;
-    box-shadow: 0px 0px 5px 0.5px rgb(194, 194, 194);
     border-color: transparent;
+  }
+
+  &__clear {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    color: gray;
+    cursor: pointer;
+    background-color: white;
   }
 }

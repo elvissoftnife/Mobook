@@ -1,0 +1,20 @@
+.book {
+  &__title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #777f85;
+    text-transform: uppercase;
+  }
+
+  &__autor {
+    color: #677480;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    font-size: 15px;
+    color: #828e99;
+    margin-top: 5px;
+  }
+}

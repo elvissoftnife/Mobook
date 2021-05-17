@@ -1,21 +1,15 @@
 .card {
+  margin: 0px auto;
   position: relative;
-  height: 350px;
-  width: 600px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 191, 237, 1) 0%,
-    rgba(221, 38, 223, 1) 99%
-  );
+  height: 330px;
+  width: 100%;
   margin-bottom: 100px;
 }
 .image {
-  top: 20px;
-  left: 30px;
-  height: 380px;
-  width: 240px;
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
   box-shadow: 0px 0px 10px 0.5px rgb(121, 120, 120);
-  position: absolute;
 }
 
 .book {
@@ -47,7 +41,6 @@
     text-align: center;
     font-weight: bold;
     margin: auto;
-    color: rgb(204, 70, 204);
     text-transform: capitalize;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s, background-color 0.5s,
@@ -56,10 +49,8 @@
   }
 
   &__button:hover {
-    background-color: rgb(204, 70, 204);
-    box-shadow: 0px 0px 20px 0.5px rgba(153, 35, 147, 0.5);
     color: white;
     text-transform: capitalize;
-    border: 3px solid rgba(255, 255, 255, 0.603);
+    border: 3px solid rgba(255, 255, 255, 0.274);
   }
 }
