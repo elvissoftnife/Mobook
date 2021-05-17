@@ -1,9 +1,6 @@
 import React from 'react'
-import { BookCardOrganisms } from '../../../organisms/bookCard.organisms'
-import { CarouselOrganisms } from '../../../organisms/carousel.organisms'
-import { GendersListOrganisms } from '../../../organisms/gendersList.organisms'
-import { PersonListOrganisms } from '../../../organisms/personList.organisms'
-import { SearchOrganisms } from '../../../organisms/search.organisms'
+import { CarouselOrganisms } from '../../../organisms/carousel/carousel.organisms'
+import { SearchOrganisms } from '../../../organisms/search/search.organisms'
 import styles  from  './presentation.templete.scss'
 
 export default function PresentationTemplate() {

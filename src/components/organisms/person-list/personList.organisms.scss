@@ -1,4 +1,7 @@
 .personList {
+  top: 150px;
+  position: sticky;
+
   &__title {
     font-size: 20px;
     font-weight: bold;

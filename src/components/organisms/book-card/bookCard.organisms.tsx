@@ -1,7 +1,7 @@
 import React from 'react'
-import { ImageAtom } from '../atoms/image.atom'
-import { AvatarPersonBookMolecule } from '../molecules/avatarPersonBook.molecule'
-import { InfoCardBookMolecule } from '../molecules/infoCardBook.molecule'
+import { ImageAtom } from '../../atoms/image.atom'
+import { AvatarPersonBookMolecule } from '../../molecules/avatarPersonBook.molecule'
+import { InfoCardBookMolecule } from '../../molecules/infoCardBook.molecule'
 import style from './bookCard.organisms.scss'
 
 export const BookCardOrganisms = () => {

@@ -1,11 +1,11 @@
 import React from 'react'
-import { AvatarPersonItemMolecule } from '../molecules/avatarPersonItem.molecule'
+import { AvatarPersonItemMolecule } from '../../molecules/avatarPersonItem.molecule'
 
 import style from './personList.organisms.scss'
 
 export const PersonListOrganisms = () => {
     return (
-        <div>
+        <div className={style.personList}>
             <p className={style.personList__title}>Ultimos contribuidores</p>
             <div>
                 <AvatarPersonItemMolecule/>

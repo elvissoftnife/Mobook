@@ -1,5 +1,5 @@
 import React from 'react'
-import { BookCardOrganisms } from '../../../organisms/bookCard.organisms'
+import { BookCardOrganisms } from '../../../organisms/book-card/bookCard.organisms'
 
 export default function BooksTemplate() {
     return (
