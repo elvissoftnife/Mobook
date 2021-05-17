@@ -1,0 +1,17 @@
+.search {
+  width: 80%;
+  background-color: blue;
+  margin: 20px auto;
+
+  &__input {
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    padding: 0px 20px;
+    color: grey;
+    outline-style: none;
+    box-shadow: 0px 0px 5px 0.5px rgb(194, 194, 194);
+    border-color: transparent;
+  }
+}
